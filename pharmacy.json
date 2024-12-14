@@ -1,0 +1,224 @@
+{
+    "data": [
+        {
+            "name": "Acetaminophen",
+            "category": "Analgesics",
+            "price": "200",
+            "image": "./Images/ACETAMINOPHEN.jpg"
+        },
+        {
+            "name": "Ibuprofen",
+            "category": "Analgesics",
+            "price": "250",
+            "image": "./Images/IBUPROFEN.avif"
+        },
+        {
+            "name": "Aspirin",
+            "category": "Analgesics",
+            "price": "300",
+            "image": "./Images/ASPIRIN.jpeg"
+        },
+        {
+            "name": "Morphine",
+            "category": "Analgesics",
+            "price": "200",
+            "image": "./Images/MORPHINE.jpeg"
+        },
+        {
+            "name": "Oxycodone",
+            "category": "Analgesics",
+            "price": "190",
+            "image": "./Images/OXYCODONE.jpeg"
+        },
+        {
+            "name": "Celecoxib",
+            "category": "Analgesics",
+            "price": "200",
+            "image": "./Images/CELECOXIB"
+        },
+        {
+            "name": "Capsaicin",
+            "category": "Analgesics",
+            "price": "300",
+            "image": "./Images/CAPSAICIN"
+        },
+        {
+            "name": "Lidocaine",
+            "category": "Analgesics",
+            "price": "250",
+            "image": "./Images/LIDOCAINE.jpeg"
+        },
+
+        {
+            "name": "Amoxicillin",
+            "category": "Antibiotics",
+            "price": "300",
+            "image": "./Images/AMOXICILLIN"
+        },
+        {
+            "name": "Doxycycline",
+            "category": "Antibiotics",
+            "price": "200",
+            "image": "./Images/DOXYCYCLINE.jpeg"
+        },
+        {
+            "name": "Azithromycin",
+            "category": "Antibiotics",
+            "price": "350",
+            "image": "./Images/AZITHROMYCIN.jpg"
+        },
+        {
+            "name": "Metronidazole",
+            "category": "Antibiotics",
+            "price": "500",
+            "image": "./Images/METRONIDAZOLE.jpg"
+        },
+        {
+            "name": "Ciprofloxacin",
+            "category": "Antibiotics",
+            "price": "300",
+            "image": "./Images/CIPROFLOXACIN.jpg"
+        },
+        {
+            "name": "Ceftriaxone",
+            "category": "Antibiotics",
+            "price": "250",
+            "image": "./Images/CEFTRIAXONE.jpg"
+        },
+        {
+            "name": "Vancomycin",
+            "category": "Antibiotics",
+            "price": "400",
+            "image": "./Images/VANCOMYCIN"
+        },
+        {
+            "name": "Penicillin",
+            "category": "Antibiotics",
+            "price": "200",
+            "image": "./Images/PENICILLIN"
+        },
+
+        {
+            "name": "Fluoxetine",
+            "category": "Antidepressants",
+            "price": "290",
+            "image": "./Images/FLUOXETINE.jpg"
+        },
+        {
+            "name": "Sertraline",
+            "category": "Antidepressants",
+            "price": "530",
+            "image": "./Images/SERTRALINE.jpg"
+        },
+        {
+            "name": "Paroxetine",
+            "category": "Antidepressants",
+            "price": "250",
+            "image": "./Images/PAROXETINE.jpg"
+        },
+        {
+            "name": "Escitalopram",
+            "category": "Antidepressants",
+            "price": "400",
+            "image": "./Images/ESCITALOPRAM.jpg"
+        },
+        {
+            "name": "Duloxetine",
+            "category": "Antidepressants",
+            "price": "280",
+            "image": "./Images/DULOXETINE.jpg"
+        },
+        {
+            "name": "Amitriptyline",
+            "category": "Antidepressants",
+            "price": "200",
+            "image": "./Images/AMITRIPTYLINE.jpeg"
+        },
+        {
+            "name": "Venlafaxine",
+            "category": "Antidepressants",
+            "price": "250",
+            "image": "./Images/VENLAFAXINE.jpg"
+        },
+        {
+            "name": "Bupropion",
+            "category": "Antidepressants",
+            "price": "500",
+            "image": "./Images/BUPROPION.jpg"
+        },
+
+        {
+            "name": "Cetirizine",
+            "category": "Antihistamines",
+            "price": "370",
+            "image": "./Images/CETIRIZINE.jpeg"
+        },
+        {
+            "name": "Loratadine",
+            "category": "Antihistamines",
+            "price": "450",
+            "image": "./Images/LORATADINE.jpeg"
+        },
+        {
+            "name": "Hydroxyzine",
+            "category": "Antihistamines",
+            "price": "150",
+            "image": "./Images/HYDROXYZINE.jpg"
+        },
+        {
+            "name": "Desloratadine",
+            "category": "Antihistamines",
+            "price": "200",
+            "image": "./Images/DESLORATADINE"
+        },
+
+        {
+            "name": "Lisinopril",
+            "category": "Antihypertensives",
+            "price": "300",
+            "image": "./Images/LISINOPRIL"
+        },
+        {
+            "name": "Amlodipine",
+            "category": "Antihypertensives",
+            "price": "300",
+            "image": "./Images/AMLODIPINE"
+        },
+        {
+            "name": "Metoprolol",
+            "category": "Antihypertensives",
+            "price": "200",
+            "image": "./Images/METOPROLOL"
+        },
+        {
+            "name": "Losartan",
+            "category": "Antihypertensives",
+            "price": "250",
+            "image": "./Images/LOSARTAN.jpg"
+        },
+        {
+            "name": "Atenolol",
+            "category": "Antihypertensives",
+            "price": "190",
+            "image": "./Images/ATENOLOL.jpg"
+        },
+        {
+            "name": "Enalapril",
+            "category": "Antihypertensives",
+            "price": "400",
+            "image": "./Images/ENALAPRIL.jpg"
+        },
+        {
+            "name": "Valsartan",
+            "category": "Antihypertensives",
+            "price": "300",
+            "image": "./Images/VALSARTAN.jpeg"
+        },
+        {
+            "name": "Ramipril ",
+            "category": "Antihypertensives",
+            "price": "250",
+            "image": "./Images/RAMIPRIL"
+        }
+    ]
+}

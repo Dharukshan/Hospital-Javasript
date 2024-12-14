@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA Hospital</title>
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" type="text/css">  
+</head>
+<body>
+
+    <!-----The sub header part of the page begins----->
+    <header>
+    <section class="Sub-header">
+            <a href="./index.html"><img src="Images/l3.png" class="Logo" alt="DA-Hospital"></a>
+            <div class="header">
+                <!-----Search bar----->
+                <div id="search-container">
+                    <input type="search" id="search-input" placeholder="Search product name here">
+                    <button id="search">Search</button>
+                </div>
+
+                <!-----Filter search buttons----->
+                <div id="buttons">
+                    <button class="button-value" onclick="filterProduct('All')">All</button>
+                    <button class="button-value" onclick="filterProduct('Analgesics')">Analgesics</button>
+                    <button class="button-value" onclick="filterProduct('Antibiotics')">Antibiotics</button>
+                    <button class="button-value" onclick="filterProduct('Antidepressants')">Antidepressants</button>
+                    <button class="button-value" onclick="filterProduct('Antihistamines')">Antihistamines</button>
+                    <button class="button-value" onclick="filterProduct('Antihypertensives')">Antihypertensives</button>
+                </div>
+            </div>
+    </section>
+    </header>
+    <!-----The sub header part of the page ends----->
+
+    <!-----Welcoming message to the pharmacy order page----->
+    <section class="background">
+        <h1>Pharmacy</h1>
+        <p>The DA Hospital Pharmacy is a vital component of our healthcare services, offering patients <br> easy access to a comprehensive range of medications.</p>
+    </section>
+
+    <!-- Fieldsets for each medicine category -->
+    <main>
+    <section id="product-categories">
+        <fieldset id="Analgesics">
+            <legend>Analgesics</legend>
+            <div class="products" id="Analgesics-products"></div>
+        </fieldset>
+        <fieldset id="Antibiotics">
+            <legend>Antibiotics</legend>
+            <div class="products" id="Antibiotics-products"></div>
+        </fieldset>
+        <fieldset id="Antidepressants">
+            <legend>Antidepressants</legend>
+            <div class="products" id="Antidepressants-products"></div>
+        </fieldset>
+        <fieldset id="Antihistamines">
+            <legend>Antihistamines</legend>
+            <div class="products" id="Antihistamines-products"></div>
+        </fieldset>
+        <fieldset id="Antihypertensives">
+            <legend>Antihypertensives</legend>
+            <div class="products" id="Antihypertensives-products"></div>
+        </fieldset>
+    </section>
+
+    <!-- Favourites table -->
+     <section class="table">
+        <table class="favorites-table" id="favouritesTable">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="favoritesList"></tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"> Total: </td>
+                    <td id="calctotal"> Rs 0</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Favourite table buttons -->
+
+        <div class="buttons">
+            <button class="addToFavorites"> Add to Favourites </button>
+            <button class="applyToFavorites"> Apply to Favourites </button>
+            <button class="clearFavorites"> Clear Favourites </button>
+            <button class="buyNow" onclick="validatingorder()"> Buy Now </button>
+        </div>
+     </section>
+
+    
+    </main>
+    
+    <!-----Footer----->
+    <footer>
+        <section class="footer">  
+        <h4>About us</h4>
+        <p>Committed to providing compassionate, comprehensive care with cutting-edge medical expertise.<br>Your health and well-being are our priority.</p>
+    
+        <div class="icons">
+            <img src="Images/Instagram.png" alt="Instagram">
+            <img src="Images/Facebook.png" alt="Facebook">
+            <img src="Images/Twitter.png" alt="Twitter">
+        </div>
+    
+        <p>Address:123 Wellness Avenue, Kandy.</p>
+        <p>Copyright © 2024 DA Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+        
+    <!-----Linking JSON file to html----->
+    <script src="./main.js" defer></script>
+</body>
+</html>

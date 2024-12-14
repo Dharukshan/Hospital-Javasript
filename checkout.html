@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DA Hospital</title>
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" type="text/css">  
+</head>
+<body>
+
+    <!-----The sub header part of the page begins----->
+    <header>
+    <section class="Sub-header2">
+            <a href="./index.html"><img src="Images/l3.png" class="Logo" alt="DA-Hospital"></a>
+            <div class="header">
+                <h1>Review & complete your<br> Purchase</h1>
+            </div>
+    </section>
+    </header>
+    <!-----The sub header part of the page ends----->
+
+    <main>
+        <section class="checkout">
+            <div class="check-container">
+                <div class="form-container">
+                    <!-- Delivery Info Section -->
+                    <div class="delivery-info">
+                        <h2>Delivery Information</h2>
+                        <form action="thankyou.html">
+                            <div class="inputbox">
+                                <span>Full Name:</span>
+                                <input type="text" placeholder="Enter your Full name" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>Phone Number:</span>
+                                <input type="text" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>Email:</span>
+                                <input type="text" placeholder="Enter your email address" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>Upload Prescription: (Optional)</span>
+                                <input type="file" accept=".jpg, .png, .pdf, .jpeg">
+                            </div>
+                            <div class="inputbox">
+                                <span>Delivery Address:</span>
+                                <textarea id="delivery-address" placeholder="Provide your delivery address" rows="2" required></textarea>
+                            </div>
+                            <div class="sub-section">
+                                <div class="inputbox">
+                                    <span>City:</span>
+                                    <input type="text" placeholder="Sri-lanka" required>
+                                </div>
+                                <div class="inputbox">
+                                    <span>Zip Code:</span>
+                                    <input type="text" placeholder="234-543" required>
+                                </div>
+                            </div>    
+                        
+                    <!-- Payment Methods Section -->
+                    <div class="payment-section">
+                        <h2>Payment</h2>
+                        <div class="inputbox">
+                            <span>Card Name:</span>
+                            <div class="radio-section">
+                                <label>
+                                    <input type="radio" id="debit-card" name="card-type" value="debit card" required>
+                                    <span> Debit Card </span>
+                                </label>
+                                <label>
+                                    <input type="radio" id="credit-card" name="card-type" value="credit card" required>
+                                    <span> Credit Card </span>
+                                </label>
+                                <label>
+                                    <input type="radio" id="master-card" name="card-type" value="master card" required>
+                                    <span> Master Card </span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <span>Name On Card:</span>
+                            <input type="text" placeholder="Enter your name on card" required>
+                        </div>
+                        <div class="inputbox">
+                            <span>Card Number:</span>
+                            <input type="text" placeholder="1111-2222-3333-4444" required>
+                        </div>
+                        <div class="inputbox">
+                            <span>Exp Month:</span>
+                            <input type="text" placeholder="January" required>
+                        </div>
+                        <div class="sub-section">
+                            <div class="inputbox">
+                                <span>Exp Year:</span>
+                                <input type="text" placeholder="2024" required>
+                            </div>
+                            <div class="inputbox">
+                                <span>CVV:</span>
+                                <input type="password" placeholder="1234" maxlength="4" required>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="inputbox">
+                        <button type="submit" class="submit-btn">Pay</button>
+                    </div>
+                    </form>
+                    </div>
+                </div>
+                <section class="Order-container">
+                    <h2>Order Summary</h2>
+                    <p>Review your order before confirming the purchase.</p>
+            
+                    <!-- Order Table -->
+                    <table  class="favorites-table" id="orderTable">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Total:</td>
+                                <td id="orderTotal">Rs 0.00</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!-----Footer----->
+    <footer>
+        <section class="footer">  
+        <h4>About us</h4>
+        <p>Committed to providing compassionate, comprehensive care with cutting-edge medical expertise.<br>Your health and well-being are our priority.</p>
+    
+        <div class="icons">
+            <img src="Images/Instagram.png" alt="Instagram">
+            <img src="Images/Facebook.png" alt="Facebook">
+            <img src="Images/Twitter.png" alt="Twitter">
+        </div>
+    
+        <p>Address:123 Wellness Avenue, Kandy.</p>
+        <p>Copyright © 2024 DA Hospital. All rights reserved.</p>
+        </section>
+    </footer>
+
+    <!-----Linking JSON file to html----->
+    <script src="./checkout.js"></script>
+</body>
+</html>
